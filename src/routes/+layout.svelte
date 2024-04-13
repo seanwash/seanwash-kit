@@ -33,7 +33,7 @@
 
 <footer class="p-8 text-xs flex items-center space-x-2">
 	<span>© Sean Washington.</span>
-	<a href="https://github.com/seanwash/seanwashcom-astro">
+	<a href="https://github.com/seanwash/seanwash-kit">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			viewBox="0 0 24 24"
