@@ -2,6 +2,14 @@
 	import '../app.css';
 </script>
 
+<svelte:head>
+	<title>Sean Washington</title>
+	<link rel="icon" href="/favicon.png">
+	<meta property="og:image" content="/og-image.png">
+	<meta name="description" content="Software developer based in Santa Cruz, CA">
+	<meta property="og:description" content="Software developer based in Santa Cruz, CA">
+</svelte:head>
+
 <div>
 	<nav class="p-8 flex items-center space-x-4">
 		<a href="/">
