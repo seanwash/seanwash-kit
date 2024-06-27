@@ -31,6 +31,7 @@
 	"type": "module",
 	"dependencies": {
 		"@sveltejs/adapter-node": "^5.0.1",
+		"dotenv": "^16.4.5",
 		"pino": "^8.20.0",
 		"pino-pretty": "^11.0.0",
 		"pocketbase": "^0.21.1"
