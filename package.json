@@ -4,7 +4,7 @@
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
-		"build": "node -r dotenv/config ./node_modules/.bin/vite build",
+		"build": "svelte-kit sync && node -r dotenv/config ./node_modules/.bin/vite build",
 		"preview": "vite preview",
 		"start": "node -r dotenv/config build",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
@@ -30,7 +30,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@sveltejs/adapter-node": "^5.0.1",
+		"@sveltejs/adapter-node": "5.0.2",
 		"dotenv": "^16.4.5",
 		"pino": "^8.20.0",
 		"pino-pretty": "^11.0.0",

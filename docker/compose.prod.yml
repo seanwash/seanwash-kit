@@ -1,0 +1,13 @@
+services:
+  sveltekit-app:
+    restart: always
+    build:
+      context: ../
+      dockerfile: Dockerfile
+    command: node build
+    ports:
+      - '3000:3000'
+    environment:
+      NODE_ENV: develop
+      HOST: 0.0.0.0
+      PORT: 3000

@@ -1,0 +1,21 @@
+services:
+  sveltekit-app:
+    build:
+      context: ../
+      dockerfile: Dockerfile
+    command: npm run dev
+    ports:
+      - '3000:3000'
+    environment:
+      NODE_ENV: develop
+      HOST: 0.0.0.0
+      PORT: 3000
+    develop:
+      watch:
+        - action: sync
+          path: ./src
+          target: /app/src
+          ignore:
+            - node_modules/
+        - action: rebuild
+          path: ./package.json
