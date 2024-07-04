@@ -3,7 +3,7 @@ services:
     restart: always
     build:
       context: ../
-      dockerfile: Dockerfile
+      dockerfile: ./docker/Dockerfile
     command: node build
     ports:
       - '3000:3000'
