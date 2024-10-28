@@ -1,5 +1,5 @@
 services:
-  sveltekit-app:
+  seanwash-kit:
     restart: always
     build:
       context: ../
